@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T06:32:22.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="qeYk31VieBdQMOvT9PZZ" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-17T06:33:59.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="4bj6M1Hspnrzdoi2N6Io" version="12.7.0" type="github">
   <diagram id="EISAlAJFQgsb2rP-oSjr" name="Page-1">
     <mxGraphModel dx="1102" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,8 +25,8 @@
             <mxPoint x="448" y="245" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSKfCHqjJ1iswqMR62Ta-7" value="Publish Cycle File &amp;amp; IRDS data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="259" y="149" width="175" height="18" as="geometry"/>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-7" value="Publish Cycle File &amp;amp; IRDS data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=5;" vertex="1" parent="1">
+          <mxGeometry x="263.5" y="154" width="175" height="18" as="geometry"/>
         </mxCell>
         <mxCell id="zSKfCHqjJ1iswqMR62Ta-10" value="Simulator Data&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="180" width="139" height="31" as="geometry"/>
@@ -52,8 +52,14 @@
         <mxCell id="zSKfCHqjJ1iswqMR62Ta-15" value="Remote Monitoring&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="462" y="362" width="139" height="31" as="geometry"/>
         </mxCell>
-        <mxCell id="zSKfCHqjJ1iswqMR62Ta-16" value="Publish Cycle File in &lt;br&gt;&quot;Remote Monitoring&quot; Topic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-10;" vertex="1" parent="1">
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-16" value="Publish Cycle File under&lt;br&gt;&quot;Remote Monitoring&quot; Topic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-10;" vertex="1" parent="1">
           <mxGeometry x="274" y="362" width="154" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-17" value="Instrument Tracking&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="429" width="139" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-18" value="Publish IRDS data under&amp;nbsp;&lt;br&gt;&quot;Instrument Tracking&quot; Topic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=10;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="435" width="158" height="32" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
