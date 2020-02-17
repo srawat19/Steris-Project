@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T06:33:59.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="4bj6M1Hspnrzdoi2N6Io" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-17T06:35:41.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="xyW93v-yM6mRFcFpyYfE" version="12.7.0" type="github">
   <diagram id="EISAlAJFQgsb2rP-oSjr" name="Page-1">
     <mxGraphModel dx="1102" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="42" y="337" width="209" height="182" as="geometry"/>
         </mxCell>
         <mxCell id="zSKfCHqjJ1iswqMR62Ta-3" value="MQTT&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="451" y="112" width="177" height="386" as="geometry"/>
+          <mxGeometry x="451" y="112" width="165" height="386" as="geometry"/>
         </mxCell>
         <mxCell id="zSKfCHqjJ1iswqMR62Ta-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -60,6 +60,18 @@
         </mxCell>
         <mxCell id="zSKfCHqjJ1iswqMR62Ta-18" value="Publish IRDS data under&amp;nbsp;&lt;br&gt;&quot;Instrument Tracking&quot; Topic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=10;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="435" width="158" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-19" value="Automation Validation Tool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="699" y="221" width="130" height="87" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="256" as="sourcePoint"/>
+            <mxPoint x="616" y="256" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-21" value="Subscribes to&lt;br&gt;&amp;nbsp;these Topic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="616" y="221" width="83" height="32" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
