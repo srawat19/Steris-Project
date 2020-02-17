@@ -1,1 +1,61 @@
-<mxfile host="www.draw.io" modified="2020-02-17T06:15:48.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="12.7.0" etag="7yeiCmA1SxUi1pFD13vB" type="github"><diagram id="EISAlAJFQgsb2rP-oSjr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-17T06:32:22.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="qeYk31VieBdQMOvT9PZZ" version="12.7.0" type="github">
+  <diagram id="EISAlAJFQgsb2rP-oSjr" name="Page-1">
+    <mxGraphModel dx="1102" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-1" value="Simulator&amp;nbsp;&lt;br&gt;&lt;br&gt;Reads Input excel&lt;br&gt;&amp;nbsp;&lt;br&gt;Parses the data &lt;br&gt;&lt;br&gt;Plays the Parsed data to Adapter based on Device Type and Time Ticks&lt;br&gt;&lt;br&gt;Converts Meaningful to Raw data Wraps it in protocol format based on Device Family and send to UCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="38" y="85" width="213" height="197" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-2" value="UCB&lt;br&gt;&lt;br&gt;Processes the Raw data &lt;br&gt;&lt;br&gt;Generates Cycle File &lt;br&gt;&lt;br&gt;Triggers Events for IRDS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="337" width="209" height="182" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-3" value="MQTT&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451" y="112" width="177" height="386" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="167" as="sourcePoint"/>
+            <mxPoint x="448" y="189" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.421;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zSKfCHqjJ1iswqMR62Ta-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="261" y="177" as="sourcePoint"/>
+            <mxPoint x="448" y="245" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-7" value="Publish Cycle File &amp;amp; IRDS data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="259" y="149" width="175" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-10" value="Simulator Data&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="180" width="139" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-11" value="Publish Simulator state" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=20;" vertex="1" parent="1">
+          <mxGeometry x="274" y="211" width="133" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-12" value="Simulator State" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="237" width="139" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="412" as="sourcePoint"/>
+            <mxPoint x="450" y="384" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252" y="415" as="sourcePoint"/>
+            <mxPoint x="449" y="439" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-15" value="Remote Monitoring&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="362" width="139" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="zSKfCHqjJ1iswqMR62Ta-16" value="Publish Cycle File in &lt;br&gt;&quot;Remote Monitoring&quot; Topic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-10;" vertex="1" parent="1">
+          <mxGeometry x="274" y="362" width="154" height="32" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
