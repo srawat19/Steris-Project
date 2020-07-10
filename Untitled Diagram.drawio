@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-10T10:07:37.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="cv4Ks5C1J_n0ILI5oJ86" version="13.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-10T10:33:40.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ClSR4rNCII4x7iI4xT4K" version="13.4.1" type="github">
   <diagram id="qQgpVs0kOKDX7Zg4RqfS" name="Page-1">
     <mxGraphModel dx="1021" dy="459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -94,8 +94,8 @@
         <mxCell id="ZiHUxecsQtzxcW_elMhK-8" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Maintains a &lt;font&gt;Dictionary&lt;/font&gt;&amp;lt;Tag,TagValue&amp;gt; &amp;amp; keeps &lt;br&gt;updating it with the data received from Input parser&lt;br&gt;based on time tick&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="217" width="235" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="ZiHUxecsQtzxcW_elMhK-15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;Publishes&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;meaningful data&amp;nbsp; &amp;amp; Simulator State data&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="307.5" y="400" width="236" height="18" as="geometry" />
+        <mxCell id="ZiHUxecsQtzxcW_elMhK-15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;Publishes&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;meaningful data&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="399" width="135" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
